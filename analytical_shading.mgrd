@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<SAGA_METADATA>
+  <DATABASE></DATABASE>
+  <SOURCE></SOURCE>
+  <HISTORY saga-version="7.8.2">
+    <TOOL library="ta_lighting" id="0" name="Analytical Hillshading">
+      <OPTION type="grid_system" id="PARAMETERS_GRID_SYSTEM" name="Grid System">
+        <CELLSIZE>0.1977255399990827</CELLSIZE>
+        <XMIN>356177.40682777</XMIN>
+        <XMAX>356523.22879722837</XMAX>
+        <YMIN>3863272.83835877</YMIN>
+        <YMAX>3863519.797558229</YMAX>
+      </OPTION>
+      <OPTION type="choice" id="METHOD" name="Shading Method" index="2">With Shadows</OPTION>
+      <OPTION type="choice" id="POSITION" name="Sun's Position" index="0">azimuth and height</OPTION>
+      <OPTION type="double" id="AZIMUTH" name="Azimuth">315.000000</OPTION>
+      <OPTION type="double" id="DECLINATION" name="Height">45.000000</OPTION>
+      <OPTION type="double" id="EXAGGERATION" name="Exaggeration">1.000000</OPTION>
+      <OPTION type="choice" id="UNIT" name="Unit" index="1">degree</OPTION>
+      <OPTION type="choice" id="SHADOW" name="Shadow" index="0">slim</OPTION>
+      <INPUT type="grid" id="ELEVATION" name="Elevation" system="PARAMETERS_GRID_SYSTEM">
+        <TOOL library="io_gdal" id="0" name="Import Raster">
+          <OPTION type="file" id="FILES" name="Files">"C:/ADDA_GIS_Labs/Day_11/ArcGIS Drone2Map Lab 11/Output_files/Farm_CropHeight1_dsm.tif"</OPTION>
+          <OPTION type="choice" id="MULTIPLE" name="Multiple Bands Output" index="2">automatic</OPTION>
+          <OPTION type="text" id="SELECTION" name="Select from Multiple Bands"/>
+          <OPTION type="boolean" id="TRANSFORM" name="Transformation">true</OPTION>
+          <OPTION type="choice" id="RESAMPLING" name="Resampling" index="3">B-Spline Interpolation</OPTION>
+          <OPTION type="choice" id="EXTENT" name="Extent" index="0">original</OPTION>
+          <OUTPUT type="grid_list" id="GRIDS" name="Grids">Farm_CropHeight1_dsm</OUTPUT>
+        </TOOL>
+      </INPUT>
+      <OUTPUT type="grid" id="SHADE" name="Analytical Hillshading">Analytical Hillshading</OUTPUT>
+    </TOOL>
+  </HISTORY>
+  <FILE></FILE>
+  <DESCRIPTION></DESCRIPTION>
+  <PROJECTION>
+    <OGC_WKT>PROJCS["WGS_1984_UTM_Zone_17N",GEOGCS["WGS 84",DATUM["World Geodetic System 1984",SPHEROID["WGS 84",6378137,298.257223563]],PRIMEM["Greenwich",0],UNIT["degree",0.0174532925199433,AUTHORITY["EPSG","9122"]]],PROJECTION["Transverse_Mercator"],PARAMETER["latitude_of_origin",0],PARAMETER["central_meridian",-81],PARAMETER["scale_factor",0.9996],PARAMETER["false_easting",500000],PARAMETER["false_northing",0],UNIT["metre",1,AUTHORITY["EPSG","9001"]],AXIS["Easting",EAST],AXIS["Northing",NORTH]]</OGC_WKT>
+    <PROJ4>+proj=utm +zone=17 +datum=WGS84 +units=m +no_defs</PROJ4>
+    <EPSG>-1</EPSG>
+  </PROJECTION>
+</SAGA_METADATA>

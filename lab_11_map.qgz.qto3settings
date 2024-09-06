@@ -1,0 +1,421 @@
+{
+  "KEYFRAMES": {
+    "camera": {
+      "groups": []
+    },
+    "layers": {
+      "Canopy_Height_1ddbfeff_e281_41fa_a89f_49944f68ccc1": {
+        "enabled": true,
+        "groups": []
+      },
+      "Canopy_Height_27a40e12_78e6_4676_83d9_b7b3eae4eea0": {
+        "enabled": true,
+        "groups": []
+      },
+      "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8": {
+        "enabled": true,
+        "groups": []
+      },
+      "Canopy_Height_7ed30261_f9c3_47a0_a80b_f55f5ba602d3": {
+        "enabled": true,
+        "groups": []
+      },
+      "Canopy_Height_83ef1d93_84d5_46a3_bc76_dee8577f6f33": {
+        "enabled": true,
+        "groups": []
+      },
+      "Canopy_Height_f4c309be_a818_4742_9722_a87f4a20c8b1": {
+        "enabled": true,
+        "groups": []
+      },
+      "DsmContours_988acd0f_179f_43cf_94c9_b5a2ad36547e": {
+        "enabled": true,
+        "groups": []
+      },
+      "DsmContours_ec105a45_13ac_465c_8ed7_07da4c7f7e91": {
+        "enabled": true,
+        "groups": []
+      },
+      "DtmContours_73cd2f6c_cfaf_4c80_8c49_3fe66966b54a": {
+        "enabled": true,
+        "groups": []
+      },
+      "DtmContours_fdce2b56_98c5_482d_8b7a_a6890205b945": {
+        "enabled": true,
+        "groups": []
+      },
+      "Farm_CropHeight1_dsm_55cd1d72_ee5e_404e_a778_042ed918e40b": {
+        "enabled": true,
+        "groups": []
+      },
+      "Farm_CropHeight1_dsm_7677b21d_a146_4dc3_9536_3cda6ad38566": {
+        "enabled": true,
+        "groups": []
+      },
+      "Farm_CropHeight1_dtm_f322267c_e1a9_47bd_9e46_e1f17ea31355": {
+        "enabled": true,
+        "groups": []
+      },
+      "analytical_shading_aaabf202_7cdf_4d9c_97d1_61833693e1f1": {
+        "enabled": true,
+        "groups": []
+      },
+      "fp:b7296ea0": {
+        "enabled": true,
+        "groups": []
+      }
+    },
+    "repeat": false
+  },
+  "LAYERS": [
+    {
+      "geomType": 2,
+      "layerId": "DtmContours_73cd2f6c_cfaf_4c80_8c49_3fe66966b54a",
+      "name": "DTM Contours",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "DtmContours_fdce2b56_98c5_482d_8b7a_a6890205b945",
+      "name": "DtmContours copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "DsmContours_ec105a45_13ac_465c_8ed7_07da4c7f7e91",
+      "name": "DSM Contours",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 2,
+      "layerId": "DsmContours_988acd0f_179f_43cf_94c9_b5a2ad36547e",
+      "name": "DsmContours copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8",
+      "name": "Canopy Height-2",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "analytical_shading_aaabf202_7cdf_4d9c_97d1_61833693e1f1",
+      "name": "analytical_shading",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Canopy_Height_1ddbfeff_e281_41fa_a89f_49944f68ccc1",
+      "name": "Canopy_Height copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Canopy_Height_83ef1d93_84d5_46a3_bc76_dee8577f6f33",
+      "name": "Canopy_Height",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "96c36fe7",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "96c36fe7",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 3,
+      "layerId": "Canopy_Height_27a40e12_78e6_4676_83d9_b7b3eae4eea0",
+      "name": "Canopy Height",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 3,
+      "layerId": "Canopy_Height_7ed30261_f9c3_47a0_a80b_f55f5ba602d3",
+      "name": "Canopy Height copy",
+      "properties": {},
+      "visible": false
+    },
+    {
+      "geomType": 0,
+      "layerId": "Canopy_Height_f4c309be_a818_4742_9722_a87f4a20c8b1",
+      "name": "Canopy Height",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "f779ffd3",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "f779ffd3",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Farm_CropHeight1_dsm_7677b21d_a146_4dc3_9536_3cda6ad38566",
+      "name": "Farm_CropHeight1_dsm",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "b93452fd",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "b93452fd",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Farm_CropHeight1_dsm_55cd1d72_ee5e_404e_a778_042ed918e40b",
+      "name": "Farm_CropHeight1_dsm copy",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "f16b2beb",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "f16b2beb",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "Farm_CropHeight1_dtm_f322267c_e1a9_47bd_9e46_e1f17ea31355",
+      "name": "Farm_CropHeight1_dtm",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Clip": false,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "comboBox_ClipLayer": "Canopy_Height_2_e53a8bac_966e_48c4_866c_18243335cbb8",
+        "horizontalSlider_DEMSize": 2,
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "2c8227eb",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "2c8227eb",
+        "spinBox_Roughening": 1,
+        "spinBox_Size": 3
+      },
+      "visible": true
+    },
+    {
+      "geomType": 0,
+      "layerId": "fp:b7296ea0",
+      "name": "Flat Plane",
+      "properties": {
+        "checkBox_Clickable": true,
+        "checkBox_Frame": false,
+        "checkBox_Sides": false,
+        "checkBox_Tiles": false,
+        "checkBox_Visible": true,
+        "checkBox_Wireframe": false,
+        "colorButton_Edge": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "colorButton_Side": [
+          204,
+          187,
+          170,
+          255
+        ],
+        "colorButton_Wireframe": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "lineEdit_Altitude": "0",
+        "lineEdit_Bottom": "0",
+        "lineEdit_Name": "",
+        "materials": [
+          {
+            "id": "2c141e55",
+            "name": "map (canvas)",
+            "properties": {},
+            "type": 0
+          }
+        ],
+        "mtlId": "2c141e55",
+        "spinBox_Size": 3
+      },
+      "visible": true
+    }
+  ],
+  "Version": 20701
+}
